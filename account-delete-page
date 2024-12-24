@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Deletion Request</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Account Deletion</h1>
+    <p>If you want to delete your account and all associated data, please follow the steps below:</p>
+    <ol>
+      <li>Log in to the app using your account credentials.</li>
+      <li>Go to the Settings > Account section.</li>
+      <li>Click on the "Delete Account" button and confirm your choice.</li>
+    </ol>
+    <p>If you encounter any issues, you can contact our support team:</p>
+    <a href="mailto:plantcycle10@gmail.com">plantcycle10@gmail.com</a>
+    <p>By deleting your account, all your personal data will be permanently removed, except for data we are required to retain by law.</p>
+    <button onclick="alert('Account deletion initiated. Please follow the steps in the app.')">Request Deletion</button>
+  </div>
+</body>
+</html>
